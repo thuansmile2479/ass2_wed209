@@ -40,3 +40,45 @@
 .read-the-docs {
   color: #888;
 }
+
+.class {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-left: 100px;
+  display: flex;
+}
+.class2{
+  margin-left: 150px;
+  margin-top: 130px;
+}
+.price{
+  color: red;
+}
+.pro{
+  text-align: center;
+}
+.pro h2{
+  color: red;
+}
+.product{
+  margin-left: 130px;
+  display: flex; 
+  flex-wrap: wrap;
+  align-content: center;
+}
+.products{
+  border: 1px solid ;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 300px;
+  
+  border-radius:10px ;
+}
+
+
+
+ 
+
+

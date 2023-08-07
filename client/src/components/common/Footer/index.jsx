@@ -1,64 +1,184 @@
 import React from "react";
+import { ImPhone } from "react-icons/im";
+
 
 const Footer = () => {
 	return (
-		<footer className="container mx-auto bg-white py-8 border-t border-gray-400">
-			<p style={{ textAlign: 'center' }}>Nguyễn Duy Thuận </p>
-			<div  className="container flex px-3 py-8 ">
-				<div className="w-full mx-auto flex flex-wrap ml-40">
-					<div className="flex w-full lg:w-1/2 lg:justify-end lg:text-right mt-6 md:mt-0">
-						<div className="px-3 md:px-0">
-							<div className="w-full flex items-center py-4 mt-0">
-								<a
-									href="#"
-									className="mx-2"
-								>
-									<svg
-										className="w-6 h-6 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
-									</svg>
-								</a>
-								<a
-									href="#"
-									className="mx-2"
-								>
-									<svg
-										className="w-6 h-6 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
-									</svg>
-								</a>
-								<a
-									href="#"
-									className="mx-2"
-								>
-									<svg
-										className="w-6 h-6 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path>
-									</svg>
-								</a>
-								<a
-									href="#"
-									className="mx-2"
-								>
-									<svg
-										className="w-6 h-6 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"></path>
-									</svg>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<div>
+          <div className="sub-banner">
+            <img
+              src="https://i.pinimg.com/originals/fb/10/e1/fb10e16ce8776e6b7e4d4213a16d4344.jpg"
+              alt="Sub Banner"
+            />
+          </div>
+          <div className="infoFooter">
+            <div className="contact-phone">
+              <h4>CALL TO PURCHASE ( 08:30-22:00 )</h4>
+              <div className="infoContent">
+                <span className="iconFooter">
+                  <ImPhone />
+                </span>
+                <span className="titleHotline">0842755626</span>
+                <span className="moreInfoFooter">Every day of the week</span>
+              </div>
+            </div>
+            {/* end phone 1 */}
+            <div className="contact-phone">
+              <h4>COMMENTS & COMPLAINTS ( 08:30-22:00 )</h4>
+            <div className="infoContent">
+              <span className="iconFooter">
+                  <ImPhone />
+              </span>
+              <span className="titleHotline">0913960912</span>
+              <span className="moreInfoFooter">Every day of the week</span>
+            </div>
+            </div>
+            {/* end phone 2 */}
+            <div className="form-email">
+              <h4>SIGN UP FOR NEW INFORMATION</h4>
+              <div className="register">
+                <input
+                  type="text"
+                  className="input_regBot"
+                  placeholder="Enter your email here..."
+                />
+                <button className="btn__register" type="button">
+                  REGISTER
+                </button>
+              </div>
+            </div>
+            {/* form-email */}
+            <div className="follow-us">
+              <h4>FOLLOW US</h4>
+              <div className="icon-social">
+                <ul className="navbar-social">
+                  <li className="social">
+                    <a href="#" className="navbar-icon__links">
+                      <img
+                        src="https://res.cloudinary.com/do9rcgv5s/image/upload/v1669200313/icons8-facebook_cmwyc3.svg"
+                        data-sizes="auto"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li className="social">
+                    <a href="#" className="navbar-icon__links">
+                      <img
+                        src="https://res.cloudinary.com/do9rcgv5s/image/upload/v1669200313/icons8-instagram_yuoq0o.svg"
+                        data-sizes="auto"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li className="social">
+                    <a href="#" className="navbar-icon__links">
+                      <img
+                        src="https://res.cloudinary.com/do9rcgv5s/image/upload/v1669200313/icons8-shopee_jgryq9.svg"
+                        data-sizes="auto"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li className="social">
+                    <a href="#" className="navbar-icon__links">
+                      <img
+                        src="https://res.cloudinary.com/do9rcgv5s/image/upload/v1669200313/icons8-zalo_kfj8wm.svg"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            {/*end follow us */}
+          </div>
+          {/* Begin : footerBottom  */}
+          <div className="footerBottom">
+            <div className="policies">
+              <h5>POLICIES &amp; REGULATIONS</h5>
+              <ul className="policise-item">
+                <li>
+                  <a href="#">How to order</a>
+                </li>
+                <li>
+                  <a href="#">Membership Policy</a>
+                </li>
+                <li>
+                  <a href="#">Delivery policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms of return</a>
+                </li>
+                <li>
+                  <a href="#">Payments</a>
+                </li>
+                <li>
+                  <a href="#">Complaint handling policy</a>
+                </li>
+              </ul>
+            </div>
+            {/* end policies */}
+            <div className="system">
+              <h5>SHOP SYSTEM</h5>
+              <ul className="system">
+                <p>►344 Cau Giay</p>
+                <p>►23 Chua Boc, Dong Da</p>
+                <p>►338 Nguyen Trai, Ha Dong</p>
+                <p>►209 Bach Mai</p>
+                <p>►189 Pho Nhon</p>
+                <p>►183 Tran Cung</p>
+              </ul>
+            </div>
+            {/* end system */}
+            <div className="about-us">
+              <h5>ABOUT US</h5>
+              <p>
+                <strong>LIMITED LIABILITY COMPANY TIME MAN</strong>
+              </p>
+              <p>
+                <strong>Address: </strong>
+                Minh Khai Ward, Nam Tu Liem District, <br />
+                Hanoi City
+              </p>
+              <p>
+                <strong>Business code:</strong>
+                0108901419 issued by Hanoi Department of Planning and Investment
+                on September 17, 2019
+              </p>
+              <p>
+                <strong>Phone:</strong>
+                0842.755.626
+              </p>
+              <p>
+                <strong>Email: </strong>
+                duythuan2479@gmail.com
+              </p>
+              <p>
+                <a href="http://online.gov.vn/Home/WebDetails/69075">
+                  <img
+                    src="https://res.cloudinary.com/do9rcgv5s/image/upload/v1669023848/assignment_ReactTS/boCongThuong_kracr5.png"
+                    alt="boCongThuong"
+                    height="57px"
+                  />
+                </a>
+              </p>
+            </div>
+            <div className="our_fanpage">
+              <h5>OUR FANPAGE</h5>
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffpt.poly&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width={340}
+                height={331}
+                style={{ border: "none", overflow: "hidden" }}
+                scrolling="no"
+                frameBorder={0}
+                allowFullScreen={true}
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              />
+            </div>
+          </div>
+          <div className="bottomBar"></div>
+        </div>
 	);
 };
 

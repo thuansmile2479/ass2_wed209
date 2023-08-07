@@ -6,6 +6,7 @@ import cors from "cors"
 import initRouter from "./router/index.router"
 import createError from "http-errors"
 import path from "path"
+// import authRouter from './routes/auth.router';
 
 
 dotenv.config()
@@ -23,6 +24,8 @@ app.use(cors({
 app.use(bodyParser.json())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+// app.use('/api', authRouter);
+
 
 
 initRouter(app)
